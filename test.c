@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include <stdlib.h>
 
 #include "greatest/greatest.h"
 #include "aligned/aligned.h"
