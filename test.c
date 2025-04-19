@@ -16,7 +16,7 @@ TEST test_pointer_tag(void) {
     ASSERT(pointer_is_tagged(tagged_ptr, TAG));
     uint32_t *untagged_ptr = pointer_untag(tagged_ptr, TAG);
     ASSERT_EQ(untagged_ptr, ptr);
-    free(ptr);
+    aligned_free(ptr);
     PASS();
 }
 
