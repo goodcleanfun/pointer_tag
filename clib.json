@@ -1,0 +1,15 @@
+{
+    "name": "pointer_tag",
+    "version": "0.0.0",
+    "repo": "goodcleanfun/pointer_tag",
+    "description": "Functions for tagging/untagging memory-aligned pointers, usually the lower-order bits",
+    "keywords": ["pointer", "tag", "flags", "aligned"],
+    "license": "MIT",
+    "development": {
+      "silentbicycle/greatest": "*",
+      "goodcleanfun/aligned": "*"
+    },
+    "src": [
+      "src/pointer_tag.h"
+    ]
+  }
