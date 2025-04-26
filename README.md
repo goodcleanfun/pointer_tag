@@ -1,2 +1,2 @@
 # pointer_tag
-Macros for tagging aligned pointers
+Tagging for aligned pointers
